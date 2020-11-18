@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 
+import Mega from "./components/mega/Mega"
 import Contador from "./components/contador/Contador.jsx"
 import Input from "./components/formulario/Input"
 import IndiretaPai from "./components/comunicacao/IndiretaPai.jsx"
@@ -22,6 +23,9 @@ export default () => (
     <h1> Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#13 - Sorteio de números da Mega Sena" color=" #FE663333 ">
+     <Mega></Mega>
+      </Card>
       <Card titulo="#12 - Contador" color=" #FE9456 ">
       <Contador numeroInicial = {10}></Contador>
       </Card>
